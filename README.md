@@ -1,4 +1,5 @@
 __🧠 MCP GitHub Actions Server__
+
 This is an MCP Server that enables MCP Clients like Cursor, Claude, Windsurf, and many others to directly interact with GitHub. It provides a seamless way to perform operations such as creating, deleting, and managing repositories through simple client-server communication.
 
 __🚀 Features__
@@ -30,3 +31,18 @@ This MCP Server is designed to work with:
 
 📌 Status
 🧪 In Development – Delete feature is available. More features are being actively developed.
+
+__To use this- __
+
+-> Got to claude config file in your claude desktop setting, edit it and add
+<pre> ```json {
+  "mcpServers": {
+    "toolname": {
+      "command": "node",
+      "args": ["path/to/index.js"]
+    }
+  }
+} ``` </pre>
+
+and restart claude to see the tools.
+
