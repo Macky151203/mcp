@@ -35,14 +35,14 @@ This MCP Server is designed to work with:
 __To use this- __
 
 -> Got to claude config file in your claude desktop setting, edit it and add
-<pre> ```json {
+<pre> 
   "mcpServers": {
     "toolname": {
       "command": "node",
       "args": ["path/to/index.js"]
     }
   }
-} ``` </pre>
+} </pre>
 
 and restart claude to see the tools.
 
