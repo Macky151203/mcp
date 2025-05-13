@@ -6,15 +6,15 @@ This is an MCP Server that enables MCP Clients like Cursor, Claude, Windsurf, an
 
 🛠️ More Features Coming Soon:
 
-Create Repository
+-Create Repository
 
-Manage Issues
+-Manage Issues
 
-Push Commits
+-Push Commits
 
-Handle Pull Requests
+-Handle Pull Requests
 
-Add Collaborators
+-Add Collaborators
 
 And much more...
 
