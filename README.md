@@ -42,7 +42,7 @@ __To use this- __
       "args": ["path/to/index.js"]
     }
   }
-} </pre>
+</pre>
 
 and restart claude to see the tools.
 
