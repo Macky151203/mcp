@@ -1,10 +1,10 @@
-🧠 MCP GitHub Actions Server
+__🧠 MCP GitHub Actions Server__
 This is an MCP Server that enables MCP Clients like Cursor, Claude, Windsurf, and many others to directly interact with GitHub. It provides a seamless way to perform operations such as creating, deleting, and managing repositories through simple client-server communication.
 
-🚀 Features
+__🚀 Features__
 ✅ Delete Repository – Currently available and functional.
 
-🛠️ More Features Coming Soon:
+__🛠️ More Features Coming Soon:__
 
 - Create Repository
 
@@ -18,7 +18,7 @@ This is an MCP Server that enables MCP Clients like Cursor, Claude, Windsurf, an
 
 And much more...
 
-🧩 Compatible Clients
+__🧩 Compatible Clients__
 This MCP Server is designed to work with:
 
 - 💻 Cursor
