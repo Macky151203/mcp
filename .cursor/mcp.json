@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "weatherdata": {
-      "command": "node",
-      "args": ["C:/Users/Subra/OneDrive/Desktop/programs/web2/mcp_server/index.js"]
-    }
-  }
-}
