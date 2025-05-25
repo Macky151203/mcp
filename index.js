@@ -2,7 +2,7 @@ import { McpServer, ResourceTemplate } from "@modelcontextprotocol/sdk/server/mc
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 import { addtwonums } from "./functions/addtwonums.js";
-import { deleterepo } from "./functions/githubfunctions.js";
+import { deleterepo,createrepo } from "./functions/githubfunctions.js";
 import dotenv from 'dotenv'
 dotenv.config()
 const server = new McpServer({
@@ -30,6 +30,16 @@ server.tool('deleterepository',{
   ownername:z.string()
 },async({repositoryname,ownername})=>{
   return {content:[{type:'text',text:JSON.stringify(await deleterepo(repositoryname,ownername))}]}
+})
+
+server.tool('createrepository',{
+  repositoryname:z.string(),
+  ownername:z.string(),
+  templaterepo:z.string(),
+  templateowner:z.string(),
+  repo_description:z.string()
+},async({repositoryname,ownername,templaterepo,templateowner,repo_description})=>{
+  return {content:[{type:'text',text:JSON.stringify(await createrepo(ownername,repositoryname,templaterepo,templateowner,repo_description))}]}
 })
 
 async function init() {
