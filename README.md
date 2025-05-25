@@ -4,6 +4,7 @@ This is an MCP Server that enables MCP Clients like Cursor, Claude, Windsurf, an
 
 __🚀 Features__
 ✅ Delete Repository – Currently available and functional.
+✅ Create Repository using Template – Currently available and functional.
 
 __🛠️ More Features Coming Soon:__
 
@@ -30,7 +31,7 @@ This MCP Server is designed to work with:
 
 
 📌 Status
-🧪 In Development – Delete feature is available. More features are being actively developed.
+🧪 In Development – Delete and Create feature is available. More features are being actively developed.
 
 __To use this- __
 
